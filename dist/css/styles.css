@@ -1,0 +1,318 @@
+  .county-borders {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: .5px;
+ }
+
+ :root {
+    background: rgb(206, 191, 191);
+    color: rgb(255, 255, 255);
+ }
+
+ .states {
+     margin-top: 50px;
+ }
+
+
+.state-borders {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 1.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+#svg {
+    width: 960px;
+    height: 700px;
+}      
+
+.whole-map {
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.left-side {
+    position: relative;
+    top: 405px;
+    left: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-box {
+    height: min-content;
+    width: 150px;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 10px;
+    position: relative;
+    left: 35px;
+    letter-spacing: .5px;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.all-btns {
+    osition: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 190px;
+    height: 50px;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.options {
+    width: min-content;
+    height: 35px;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 5px; 
+    background-color: black;
+    color: white;   
+    border-radius: 10px;
+    outline: none;
+}
+
+.options:hover {
+    cursor: pointer;
+    background-color: rgb(93, 182, 233);
+}
+
+.park-img {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 4px 3px 0;
+}
+
+.np-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 32px;
+    font-family: 'ABeeZee', sans-serif;
+    letter-spacing: .5px;   
+}
+
+.legend {
+    height: 385px;
+    width: 150px;
+    border: white solid 1px;
+    position: relative;
+    top: -590px;
+    left: 1200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+}
+
+.legend > * {
+    font-family: 'ABeeZee', sans-serif;
+    letter-spacing: .5px;
+    text-align: center;  
+    display: flex;  
+    margin: 0 0 5px 5px
+}
+
+.leg-head {
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.green {
+    height: 13px;
+    width: 13px;
+    background-color: green;
+    border: .5px solid darkgray;
+    margin-right: 5px
+}
+
+.blue {
+    height: 13px;
+    width: 13px;
+    background-color: blue;
+    border: .5px solid darkgray;
+    margin-right: 5px
+}
+
+.gray {
+    height: 13px;
+    width: 13px;
+    background-color: gray;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.yellow {
+    height: 13px;
+    width: 13px;
+    background-color: yellow;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.teal {
+    height: 13px;
+    width: 13px;
+    background-color: teal;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.lightcoral {
+    height: 13px;
+    width: 13px;
+    background-color: lightcoral;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.red {
+    height: 13px;
+    width: 13px;
+    background-color: red;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.fuchsia {
+    height: 13px;
+    width: 13px;
+    background-color: fuchsia;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.aqua {
+    height: 13px;
+    width: 13px;
+    background-color: aqua;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.tan {
+    height: 13px;
+    width: 13px;
+    background-color: tan;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.white {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.gold {
+    height: 13px;
+    width: 13px;
+    background-color: gold;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.brown {
+    height: 13px;
+    width: 13px;
+    background-color: brown;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.purple {
+    height: 13px;
+    width: 13px;
+    background-color: purple;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.orange {
+    height: 13px;
+    width: 13px;
+    background-color: orange;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+.pink {
+    height: 13px;
+    width: 13px;
+    background-color: pink;
+    border: .5px solid darkgray;
+    margin-right: 5px;
+}
+
+.nyc {
+    position: absolute;
+    z-index: 3;
+}
+
+.mia {
+    
+}   
+
+.la {
+    
+}
+
+.chi {
+    
+}
+
+.dal {
+    
+}
+
+.hou {
+    
+}
+
+.phi {
+    
+}
+
+.dc {
+    
+}
+
+.atl {
+    
+}
+
+.bos {
+    
+}
+
+.sf {
+    
+}
+
+.pho {
+    
+}
+
+.det {
+    
+}
+
+.sea {
+    
+}
+
+.min {
+    
+}
+
+.stl {
+    
+}
+
+.den {
+    
+}

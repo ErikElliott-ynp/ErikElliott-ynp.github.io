@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hap Maps!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./dist/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/css/styles.css" />
+    <script type="application/javascript" src="./dist/dist/bundle.js" defer></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/d3-3d/build/d3-3d.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+    <!-- National Park SVG Provided by FontAwesome.com | license: https://fontawesome.com/license -->
+    
+</head>
+<body>
+    <div class="whole-map">
+        <div class="left-side">
+            <div class="all-btns">
+                <button id="reset" class="options reset">Reset</button>
+                <button id="main" class="options nat-parks">National Parks</button>
+                <button id="city-parks" class="options">City Parks</button>
+            </div>
+            <div id="info" class="info-box"></div>
+        </div>
+        <h1 class="title">Happ Maps </h1>
+        <svg id="svg"></svg>
+        <div class="legend">
+            <h3 class="leg-head">Major US Metros</h3>
+            <div> <div class="green"></div>  Boston</div>
+            <div> <div class="blue"></div>  New York City</div>
+            <div> <div class="gray"></div>  Washington DC</div>
+            <div> <div class="yellow"></div>  Atlanta</div>
+            <div> <div class="teal"></div>  Miami</div>
+            <div> <div class="lightcoral"></div>  Detriot</div>
+            <div> <div class="red"></div>  Chicago</div>
+            <div> <div class="fuchsia"></div>  Minnesota</div>
+            <div> <div class="aqua"></div>  St. Louis</div>
+            <div> <div class="tan"></div>  Houston</div>
+            <div> <div class="white"></div>  Dallas</div>
+            <div> <div class="gold"></div>  Denver</div>
+            <div> <div class="brown"></div>  Phoenix</div>
+            <div> <div class="purple"></div>  Los Angeles</div>
+            <div> <div class="orange"></div>  San Francisco</div>
+            <div> <div class="pink"></div>  Seattle</div>
+            <div> <img src="./dist/images/tree-solid.svg" alt="nat-parks" class="park-img"> National Park</div>
+        </div>
+        <div class="footer">
+            <p class="footer-words">Information from Hedometer.org and 2017 City Parks Facts by The Trust for Public Land</p>
+        </div>
+    </div>
+    
+</body>
+</html>
