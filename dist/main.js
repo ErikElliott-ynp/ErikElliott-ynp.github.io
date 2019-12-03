@@ -3,10 +3,6 @@ import makeMapPlain from './js/map_plain';
 import axios from 'axios';
 import cityParksGraph from './js/city_parks';
 
-console.log('And Here . . . we. . . . go');
-
-
-window.axios = axios;
 
 document.addEventListener("DOMContentLoaded", () => {
     makeMapPlain();
@@ -45,9 +41,9 @@ cityParks.addEventListener('click', () => {
 })
 
 function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
+    let letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
