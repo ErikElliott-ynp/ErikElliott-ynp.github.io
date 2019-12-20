@@ -638,7 +638,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log('And Here . . . we. . . . go');
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
 document.addEventListener("DOMContentLoaded", function () {
   Object(_js_map_plain__WEBPACK_IMPORTED_MODULE_1__["default"])();
